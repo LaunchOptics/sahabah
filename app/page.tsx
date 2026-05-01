@@ -50,7 +50,7 @@ export default function HomePage() {
   return (
     <div className="page-enter">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 pt-24 pb-16 overflow-hidden">
+      <section className="relative flex items-center justify-center px-6 pt-32 pb-20 overflow-hidden">
         <div
           className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none"
           style={{
@@ -128,8 +128,8 @@ export default function HomePage() {
       </section>
 
       {/* Daily Ayah Banner */}
-      <section className="px-6 pb-16">
-        <div className="max-w-4xl mx-auto">
+      <section className="px-6 pb-16 w-full">
+        <div className="max-w-4xl mx-auto w-full">
           <div
             className="rounded-2xl p-8 md:p-10 text-center relative overflow-hidden"
             style={{
@@ -164,8 +164,8 @@ export default function HomePage() {
       </section>
 
       {/* Features Grid */}
-      <section className="px-6 pb-24">
-        <div className="max-w-7xl mx-auto">
+      <section className="px-6 pb-24 w-full">
+        <div className="max-w-7xl mx-auto w-full">
           <div className="text-center mb-14">
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
