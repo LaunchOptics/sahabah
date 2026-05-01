@@ -48,9 +48,9 @@ export default function HomePage() {
   const ayah = getDailyAyah();
 
   return (
-    <div className="page-enter">
+    <div className="page-enter w-full">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center px-6 pt-32 pb-20 overflow-hidden">
+      <section className="relative w-full flex flex-col items-center justify-center px-6 pt-36 pb-24 overflow-hidden">
         <div
           className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none"
           style={{

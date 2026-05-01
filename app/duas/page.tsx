@@ -132,7 +132,7 @@ export default function DuasPage() {
     : duas.filter((d) => d.category === activeCategory);
 
   return (
-    <div className="page-enter pt-28 pb-24 px-6">
+    <div className="page-enter w-full pt-28 pb-24 px-6">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-14">

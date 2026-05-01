@@ -192,7 +192,7 @@ export default function HeroesPage() {
   const filtered = filter === "All" ? heroes : heroes.filter((h) => h.category === filter);
 
   return (
-    <div className="page-enter pt-28 pb-24 px-6">
+    <div className="page-enter w-full pt-28 pb-24 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-14">
