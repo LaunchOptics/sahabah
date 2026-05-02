@@ -5,20 +5,17 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Noor — Islamic Inspiration for Bayaan Academy",
-  description:
-    "Daily ayahs, hadiths, Muslim heroes, the Seerah of the Prophet ﷺ, and duas for every moment. Built for Bayaan Academy students.",
+  description: "Daily ayahs, hadiths, Muslim heroes, Seerah, and duas. Built for Bayaan Academy.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col star-pattern">
+    <html lang="en">
+      <body>
         <Navbar />
-        <main className="flex-1 w-full">{children}</main>
+        <div style={{ paddingTop: "80px" }}>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
